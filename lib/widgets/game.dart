@@ -258,7 +258,11 @@ class _GameState extends State<Game> {
                             ),
                             Text(
                               // ignore: lines_longer_than_80_chars
-                              '2. Press Start to execute the sequence, good luck!',
+                              '2. You cannot undo or remove actions once added. Think carefully!',
+                            ),
+                            Text(
+                              // ignore: lines_longer_than_80_chars
+                              '3. Press Start to execute the sequence, good luck!',
                             ),
                           ],
                         )
@@ -312,7 +316,7 @@ class _GameState extends State<Game> {
                       onPressed: actionSequence.isEmpty
                           ? null
                           : gameStarted
-                              ? _resetGame
+                              ? () => setState(_resetGame)
                               : playActions,
                       child: Text(gameStarted ? 'Restart' : 'Start'),
                     ),
