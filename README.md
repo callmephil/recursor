@@ -1,16 +1,10 @@
-# recursor
+# Concept
 
-A new Flutter project.
+This game enhances your planning and spatial reasoning skills by challenging you to predefine a sequence of moves to navigate a grid, collect all stars, and avoid walls or boundaries. It trains your brain’s executive functions—like decision-making and problem-solving.
 
-## Getting Started
+# Demo
 
-This project is a starting point for a Flutter application.
+https://recursor-game.web.app/
 
-A few resources to get you started if this is your first Flutter project:
+https://github.com/user-attachments/assets/bec3b5be-c786-454d-980c-e628ffe05d8f
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
